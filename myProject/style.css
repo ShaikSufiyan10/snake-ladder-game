@@ -1,23 +1,43 @@
 body {
-  font-family: Arial, sans-serif;
   text-align: center;
-  margin-top: 100px;
-  background-color: #f0f0f0;
+  background: linear-gradient(135deg, #4f9d9d, #2c5364);
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 h1 {
-  color: #333;
+  margin-top: 20px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+canvas {
+  background: #f1f1f1;
+  border: 5px solid #333;
+  margin-top: 20px;
+}
+
+.controls {
+  margin-top: 20px;
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
   padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff9800;
+  color: white;
   cursor: pointer;
-  border-radius: 8px;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #e68900;
 }
