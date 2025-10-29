@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake and Ladder Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My First Website!</h1>
-  <p>This is my first project using HTML, CSS, and JavaScript.</p>
-  <button id="clickBtn">Click Me!</button>
-
+  <h1>Snake and Ladder </h1>
+  <div class="container">
+    <canvas id="board" width="500" height="500"></canvas>
+    <div class="controls">
+      <p id="status">Player 1's turn</p>
+      <button onclick="rollDice()">Roll Dice</button>
+      <p id="dice"> Roll to start!</p>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
